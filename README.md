@@ -34,6 +34,7 @@ VidProM prompts
 
 - [VidProM v2 Prompt Pipeline 编排记录](docs/01_Prompt构建/VidProM_v2编排记录.md)
 - [VidProM v2 Teacher 视频队列生成说明](docs/03_Teacher视频生成/VidProM_v2_Teacher视频队列生成说明.md)
+- [Teacher 视频质检方案](docs/03_Teacher视频生成/Teacher视频质检方案.md)
 - [RF/Streaming Prompt 评测与采样调研报告](docs/02_评测与采样/RF_Streaming_Prompt评测与采样调研报告.md)
 
 ### 2. 重新生成 VidProM v2 prompt bank
@@ -76,6 +77,21 @@ artifacts/datasets/rf_vidprom_v2_wan13b_teacher_train/
 
 队列脚本会用共享文件系统租约锁避免重复生成，并支持任务中断后重跑。
 
+### 4. 对 teacher videos 做自动质检
+
+```bash
+cd /vepfs-mlp2/c20250518/241506050/code/video_code/data_construct
+
+/vepfs-mlp2/c20250518/241506050/miniconda3/envs/wan/bin/python \
+  scripts/qc_teacher_videos.py \
+  --dataset-dir artifacts/datasets/rf_vidprom_v2_wan13b_teacher_train \
+  --workers 16 \
+  --sample-frames 9 \
+  --overwrite
+```
+
+质检会输出 `qc/metadata_qc_pass.csv`、`qc/metadata_qc_review.csv` 和 `qc/metadata_qc_reject.csv`。
+
 ## 目录结构
 
 ```text
@@ -92,6 +108,7 @@ data_construct/
     post_filter_llm_prompt_bank.py
     render_teacher_dataset_queue.py
     render_teacher_dataset.py
+    qc_teacher_videos.py
     build_metadata.py
     verify_teacher_dataset.py
 
