@@ -1,0 +1,41 @@
+# Generated data and runtime artifacts
+artifacts/
+tmp/
+temp/
+*.log
+*.pid
+
+# Generated videos and media outputs
+*.mp4
+*.gif
+*.webm
+*.mov
+*.avi
+*.mkv
+
+# Model checkpoints and heavy generated tensors
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.npz
+*.npy
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and machine-specific config
+.env
+*.env
+configs/llm_config.json
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

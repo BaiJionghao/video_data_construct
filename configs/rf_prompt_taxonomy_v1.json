@@ -1,0 +1,286 @@
+{
+  "styles": [
+    "documentary video",
+    "cinematic live-action video",
+    "naturalistic travel footage",
+    "high-detail wildlife footage",
+    "realistic lifestyle video",
+    "stylized animation video"
+  ],
+  "camera_setups": [
+    "a handheld follow shot",
+    "a slow side tracking shot",
+    "a locked medium shot",
+    "a gentle dolly-in shot",
+    "a low-angle tracking shot",
+    "a wide establishing shot",
+    "a shoulder-height moving shot",
+    "a smooth forward push-in"
+  ],
+  "lighting": [
+    "soft morning light",
+    "bright midday light",
+    "warm late-afternoon light",
+    "overcast natural light",
+    "golden-hour sunlight",
+    "cool dusk light",
+    "neon reflections at night",
+    "diffused indoor window light"
+  ],
+  "moods": [
+    "calm and observational",
+    "energetic and lively",
+    "gentle and intimate",
+    "focused and purposeful",
+    "playful and lighthearted",
+    "quiet and atmospheric"
+  ],
+  "quality_tags": [
+    "natural colors",
+    "clear motion",
+    "coherent subject movement",
+    "consistent background details",
+    "crisp texture detail",
+    "stable scene composition"
+  ],
+  "subject_groups": [
+    {
+      "name": "animal_domestic",
+      "subject_type": "animal",
+      "subjects": [
+        "a golden retriever",
+        "a fluffy orange cat",
+        "a border collie",
+        "a black-and-white house cat",
+        "a small corgi",
+        "a grey tabby cat"
+      ],
+      "actions": [
+        "runs across the scene",
+        "jumps over a low obstacle",
+        "chases a bouncing toy",
+        "sniffs the ground and keeps moving",
+        "turns quickly and sprints forward",
+        "trots toward the camera"
+      ],
+      "scenes": [
+        "in a grassy park",
+        "along a quiet sidewalk lined with trees",
+        "inside a bright living room",
+        "across a backyard garden",
+        "near a sunlit porch",
+        "through a small neighborhood field"
+      ],
+      "details": [
+        "fur movement should stay readable from frame to frame",
+        "the background should remain simple and realistic",
+        "the motion should feel agile and believable",
+        "the body posture should stay anatomically consistent"
+      ]
+    },
+    {
+      "name": "animal_wild",
+      "subject_type": "animal",
+      "subjects": [
+        "a deer",
+        "a fox",
+        "a brown horse",
+        "two mountain goats",
+        "a red panda",
+        "a crane bird"
+      ],
+      "actions": [
+        "moves carefully through the scene",
+        "crosses the frame with steady motion",
+        "looks around and then continues forward",
+        "runs for a short burst before slowing down",
+        "glides through the environment with graceful motion",
+        "pauses briefly and then changes direction"
+      ],
+      "scenes": [
+        "in a forest clearing",
+        "across a foggy meadow",
+        "along a rocky hillside",
+        "beside a shallow stream",
+        "near a quiet lake shore",
+        "through tall grass in open countryside"
+      ],
+      "details": [
+        "foliage should sway subtly in the background",
+        "the animal silhouette should remain clean and readable",
+        "the scene should feel grounded in real outdoor motion",
+        "the environment should remain coherent across frames"
+      ]
+    },
+    {
+      "name": "human_activity",
+      "subject_type": "human",
+      "subjects": [
+        "a hiker with a backpack",
+        "a baker in a small kitchen",
+        "a cyclist wearing a windbreaker",
+        "a dancer in casual rehearsal clothes",
+        "a painter working on a large canvas",
+        "a gardener carrying a watering can"
+      ],
+      "actions": [
+        "moves naturally through the scene",
+        "performs a smooth repeating action",
+        "walks with steady body motion",
+        "turns and continues the action fluidly",
+        "leans in to focus on the task",
+        "steps sideways and keeps working"
+      ],
+      "scenes": [
+        "on a mountain trail",
+        "inside a warm studio space",
+        "in a bakery kitchen",
+        "on a quiet city bike lane",
+        "in a greenhouse full of plants",
+        "in a rehearsal room with simple walls"
+      ],
+      "details": [
+        "limb motion should remain clean and plausible",
+        "the camera should preserve readable body mechanics",
+        "small environmental details should remain stable",
+        "the scene should avoid visible text or logos"
+      ]
+    },
+    {
+      "name": "vehicle_ground",
+      "subject_type": "vehicle",
+      "subjects": [
+        "a compact electric car",
+        "a vintage bicycle",
+        "a delivery scooter",
+        "a yellow bus",
+        "a pickup truck",
+        "a small off-road vehicle"
+      ],
+      "actions": [
+        "moves steadily through the environment",
+        "turns a corner and continues forward",
+        "drives past the camera with clean motion",
+        "accelerates gently and then stabilizes",
+        "rolls across uneven ground",
+        "passes through the frame at medium speed"
+      ],
+      "scenes": [
+        "on a quiet suburban street",
+        "along a coastal road",
+        "through a rainy downtown block",
+        "on a dirt road in open countryside",
+        "inside an industrial loading area",
+        "through a mountain pass"
+      ],
+      "details": [
+        "wheel motion should stay visually consistent",
+        "road perspective should remain stable",
+        "reflections and highlights should feel natural",
+        "the background should keep coherent geometry"
+      ]
+    },
+    {
+      "name": "water_and_weather",
+      "subject_type": "environment",
+      "subjects": [
+        "ocean waves",
+        "a waterfall",
+        "heavy rain on a city street",
+        "snow falling over pine trees",
+        "mist drifting over a lake",
+        "wind moving through tall grass"
+      ],
+      "actions": [
+        "move continuously through the scene",
+        "create layered motion across foreground and background",
+        "shift rhythmically over time",
+        "flow across the frame with natural variation",
+        "build subtle atmospheric motion",
+        "show evolving texture and movement"
+      ],
+      "scenes": [
+        "under open sky",
+        "beside dark rocks",
+        "near distant mountains",
+        "around a quiet lakeside dock",
+        "between tall city buildings",
+        "across a broad open field"
+      ],
+      "details": [
+        "fine texture should remain visible without flicker",
+        "the motion should feel physically grounded",
+        "the atmosphere should stay coherent across frames",
+        "the composition should remain easy to read"
+      ]
+    },
+    {
+      "name": "city_life",
+      "subject_type": "scene",
+      "subjects": [
+        "pedestrians crossing an intersection",
+        "a street food vendor at work",
+        "commuters walking under umbrellas",
+        "people waiting at a tram stop",
+        "a night market walkway",
+        "a quiet bookstore entrance"
+      ],
+      "actions": [
+        "show natural continuous motion",
+        "move through the frame with layered timing",
+        "interact with the environment in a grounded way",
+        "create subtle foreground and background activity",
+        "maintain steady scene flow",
+        "show believable human pacing"
+      ],
+      "scenes": [
+        "in a modern city block",
+        "along a narrow market street",
+        "under evening shop lights",
+        "near a tram platform",
+        "beside reflective wet pavement",
+        "at the entrance of a small local shop"
+      ],
+      "details": [
+        "crowd motion should remain organized and coherent",
+        "the background architecture should stay stable",
+        "the scene should avoid heavy signage focus",
+        "small gestures should remain readable"
+      ]
+    },
+    {
+      "name": "craft_and_objects",
+      "subject_type": "object",
+      "subjects": [
+        "a ceramic cup on a workbench",
+        "fresh noodles being stretched by hand",
+        "a mechanical watch on a table",
+        "coffee beans falling into a grinder",
+        "wood shavings around a carving knife",
+        "a camera lens being assembled"
+      ],
+      "actions": [
+        "show clear step-by-step motion",
+        "move with precise hand-driven action",
+        "reveal fine material changes over time",
+        "rotate or shift in a controlled way",
+        "respond to touch with believable motion",
+        "create detailed small-scale movement"
+      ],
+      "scenes": [
+        "inside a tidy workshop",
+        "on a clean kitchen counter",
+        "under focused tabletop lighting",
+        "in a small artisan studio",
+        "on a wooden desk near a window",
+        "inside a tool-filled maker space"
+      ],
+      "details": [
+        "small object motion should stay sharp and stable",
+        "textures should remain clean across frames",
+        "the background should not distract from the action",
+        "hands and tools should move in a physically plausible way"
+      ]
+    }
+  ]
+}
